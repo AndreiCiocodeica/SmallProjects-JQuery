@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1920px;
+  margin: auto;
+}
+
+.container {
+  background-color: aquamarine;
+  display: block;
+  width: 50%;
+  text-align: center;
+  padding: 2rem;
+}
+
+.container h1 {
+  padding: 1rem;
+}
+
+.container input {
+  font-family: inherit;
+  padding: 0.2rem;
+}
+
+.container input:focus {
+  outline: none;
+}
+
+.container button {
+  font-family: inherit;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+.container button:focus {
+  outline: none;
+}
+
+.container ol {
+  list-style-position: inside;
+  width: 20%;
+  margin: auto;
+  text-align: left;
+}
+
+.remove-btn {
+  background-color: aquamarine;
+  margin-left: 5px;
+  font-weight: bold;
+  color: red;
+  border: none;
+  cursor: pointer;
+}

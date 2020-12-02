@@ -1,0 +1,66 @@
+body {
+  background: url(image/bg.jfif) center center fixed;
+  background-size: cover;
+  color: rgba(19, 161, 131, 0.527);
+}
+
+#header {
+  text-align: center;
+  font-size: 6vw;
+  color: rgba(24, 14, 10, 0.469);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#lap {
+  text-align: right;
+  font-size: 4vw;
+  color: rgba(26, 168, 130, 0.483);
+}
+
+#time {
+  text-align: center;
+  font-size: 15vw;
+  color: rgba(26, 26, 290, 0.544);
+}
+
+#controlsContainer {
+  margin-bottom: 100px;
+}
+
+.control {
+  color: rgb(253, 253, 253);
+  background-color: rgba(253, 60, 7, 0.578);
+  height: 10vw;
+  width: 10vw;
+  border-radius: 100%;
+  text-align: center;
+  padding: 23% 0;
+  font-size: 2vw;
+  cursor: pointer;
+}
+
+.control:active {
+  background-color: rgba(94, 129, 22, 0.521);
+  color: rgb(250, 250, 250);
+}
+
+#laps {
+  max-height: 270px;
+  overflow-y: scroll;
+}
+
+.lap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid #fff;
+  margin: 15px;
+}
+
+.laptimetitle,
+.laptime {
+  font-size: 3.5em;
+  padding-bottom: 0.5em;
+}
